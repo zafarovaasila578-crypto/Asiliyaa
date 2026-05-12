@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LUMIÈRE — Элитная Парфюмерия</title>
+  <meta name="description" content="LUMIÈRE — эксклюзивная парфюмерия мировых брендов. Оригинал. Доставка по Узбекистану."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ── CURSOR GLOW ── -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ── NAVBAR ── -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#" class="nav__logo">LUMIÈRE</a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#products">Коллекция</a></li>
+      <li><a href="#about">О нас</a></li>
+      <li><a href="#brands">Бренды</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ul>
+    <a href="#contact" class="nav__cta">Заказать</a>
+    <button class="nav__burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── MOBILE MENU ── -->
+<div class="mob-menu" id="mobMenu">
+  <button class="mob-close" id="mobClose">✕</button>
+  <ul>
+    <li><a href="#products" class="mob-link">Коллекция</a></li>
+    <li><a href="#about" class="mob-link">О нас</a></li>
+    <li><a href="#brands" class="mob-link">Бренды</a></li>
+    <li><a href="#contact" class="mob-link">Контакты</a></li>
+  </ul>
+</div>
+
+<!-- ── HERO ── -->
+<section class="hero" id="hero">
+  <div class="hero__bg">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="hero__content">
+    <div class="hero__eyebrow">
+      <span></span> Haute Parfumerie <span></span>
+    </div>
+    <h1 class="hero__title">
+      Аромат — это<br/><em>невидимая</em><br/>роскошь
+    </h1>
+    <p class="hero__sub">Эксклюзивные парфюмы от лучших домов мира.<br/>Только оригиналы. Только для вас.</p>
+    <div class="hero__actions">
+      <a href="#products" class="btn-gold">Смотреть коллекцию</a>
+      <a href="#about" class="btn-outline">Наша история</a>
+    </div>
+  </div>
+  <div class="hero__bottle-wrap">
+    <div class="hero__bottle-glow"></div>
+    <div class="hero__bottle">
+      <div class="bottle-svg">
+        <svg viewBox="0 0 200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="70" y="10" width="60" height="18" rx="4" fill="url(#cap)"/>
+          <rect x="80" y="26" width="40" height="14" rx="3" fill="url(#neck)"/>
+          <rect x="30" y="38" width="140" height="280" rx="20" fill="url(#body)"/>
+          <rect x="55" y="100" width="90" height="100" rx="6" fill="white" opacity="0.92"/>
+          <text x="100" y="135" text-anchor="middle" font-family="serif" font-size="13" fill="#111" font-weight="400">COCO</text>
+          <text x="100" y="152" text-anchor="middle" font-family="serif" font-size="8" fill="#111" letter-spacing="2">MADEMOISELLE</text>
+          <line x1="60" y1="158" x2="140" y2="158" stroke="#c9a84c" stroke-width="1"/>
+          <text x="100" y="173" text-anchor="middle" font-family="serif" font-size="11" fill="#111" font-weight="700" letter-spacing="1">CHANEL</text>
+          <text x="100" y="185" text-anchor="middle" font-family="serif" font-size="7" fill="#444" letter-spacing="3">PARIS</text>
+          <defs>
+            <linearGradient id="cap" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#9b8b8b"/>
+              <stop offset="50%" stop-color="#d4c5c5"/>
+              <stop offset="100%" stop-color="#9b8b8b"/>
+            </linearGradient>
+            <linearGradient id="neck" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#c9a84c"/>
+              <stop offset="100%" stop-color="#8b6914"/>
+            </linearGradient>
+            <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#f5c5b0"/>
+              <stop offset="40%" stop-color="#e89070"/>
+              <stop offset="100%" stop-color="#8b2020"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="bottle-petals">
+        <span class="petal p1">🌸</span>
+        <span class="petal p2">🌹</span>
+        <span class="petal p3">✨</span>
+        <span class="petal p4">🌸</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll">
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+<!-- ── STATS BAR ── -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <span class="stat-n">500+</span>
+      <span class="stat-l">Ароматов</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-n">10 000+</span>
+      <span class="stat-l">Довольных клиентов</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-n">100%</span>
+      <span class="stat-l">Оригинал</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-n">5 лет</span>
+      <span class="stat-l">На рынке</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── PRODUCTS ── -->
+<section class="products" id="products">
+  <div class="container">
+    <div class="sec-head">
+      <p class="sec-label">Избранное</p>
+      <h2 class="sec-title">Наша коллекция</h2>
+      <p class="sec-sub">Каждый аромат — это история, рассказанная через запах</p>
+    </div>
+
+    <div class="prod-filters">
+      <button class="filt active" data-f="all">Все</button>
+      <button class="filt" data-f="floral">Цветочные</button>
+      <button class="filt" data-f="woody">Древесные</button>
+      <button class="filt" data-f="oriental">Восточные</button>
+      <button class="filt" data-f="fresh">Свежие</button>
+    </div>
+
+    <div class="prod-grid">
+
+      <!-- CARD 1 — Coco Mademoiselle with real photo -->
+      <div class="prod-card" data-cat="floral" id="card-coco">
+        <div class="prod-img-wrap">
+          <img src="images/coco.jpg" alt="Chanel Coco Mademoiselle" class="prod-photo" id="cocoImg" onerror="this.style.display='none';document.getElementById('cocoFallback').style.display='flex'"/>
+          <div class="prod-fallback" id="cocoFallback" style="display:none">
+            <div class="fallback-bottle" style="background:linear-gradient(160deg,#f5c5b0,#e89070,#8b2020)">
+              <span style="font-size:60px">🌸</span>
+            </div>
+          </div>
+          <div class="prod-tag hot">Хит</div>
+          <div class="prod-overlay">
+            <button class="btn-cart" id="cart1">В корзину</button>
+          </div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">CHANEL</span>
+          <h3 class="prod-name">Coco Mademoiselle</h3>
+          <p class="prod-notes">Роза · Жасмин · Пачули</p>
+          <div class="prod-row">
+            <span class="prod-price">от 890 000 сум</span>
+            <div class="prod-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 — Oud Wood -->
+      <div class="prod-card feat" data-cat="woody" id="card-oud">
+        <div class="prod-img-wrap">
+          <div class="prod-fallback" style="display:flex">
+            <div class="fallback-bottle" style="background:linear-gradient(160deg,#3d1a08,#8b4513,#c9845a)">
+              <span style="font-size:60px">🪵</span>
+            </div>
+          </div>
+          <div class="prod-tag">Новинка</div>
+          <div class="prod-overlay">
+            <button class="btn-cart" id="cart2">В корзину</button>
+          </div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">TOM FORD</span>
+          <h3 class="prod-name">Oud Wood</h3>
+          <p class="prod-notes">Уд · Розовое дерево · Ваниль</p>
+          <div class="prod-row">
+            <span class="prod-price">от 1 200 000 сум</span>
+            <div class="prod-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="prod-card" data-cat="fresh" id="card-aqua">
+        <div class="prod-img-wrap">
+          <div class="prod-fallback" style="display:flex">
+            <div class="fallback-bottle" style="background:linear-gradient(160deg,#0d2137,#1a5276,#5dade2)">
+              <span style="font-size:60px">🌊</span>
+            </div>
+          </div>
+          <div class="prod-overlay">
+            <button class="btn-cart" id="cart3">В корзину</button>
+          </div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">ACQUA DI PARMA</span>
+          <h3 class="prod-name">Colonia Essenza</h3>
+          <p class="prod-notes">Бергамот · Лаванда · Мускус</p>
+          <div class="prod-row">
+            <span class="prod-price">от 750 000 сум</span>
+            <div class="prod-stars">★★★★☆</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="prod-card" data-cat="oriental" id="card-shal">
+        <div class="prod-img-wrap">
+          <div class="prod-fallback" style="display:flex">
+            <div class="fallback-bottle" style="background:linear-gradient(160deg,#1c1000,#7d5f00,#d4a017)">
+              <span style="font-size:60px">✨</span>
+            </div>
+          </div>
+          <div class="prod-tag lim">Лимит</div>
+          <div class="prod-overlay">
+            <button class="btn-cart" id="cart4">В корзину</button>
+          </div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">GUERLAIN</span>
+          <h3 class="prod-name">Shalimar Millésime</h3>
+          <p class="prod-notes">Бергамот · Ирис · Амбра</p>
+          <div class="prod-row">
+            <span class="prod-price">от 980 000 сум</span>
+            <div class="prod-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="prod-card" data-cat="floral" id="card-dior">
+        <div class="prod-img-wrap">
+          <div class="prod-fallback" style="display:flex">
+            <div class="fallback-bottle" style="background:linear-gradient(160deg,#2d0a2e,#7b2d8b,#e056b0)">
+              <span style="font-size:60px">💜</span>
+            </div>
+          </div>
+          <div class="prod-overlay">
+            <button class="btn-cart" id="cart5">В корзину</button>
+          </div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">DIOR</span>
+          <h3 class="prod-name">Miss Dior Blooming</h3>
+          <p class="prod-notes">Пион · Роза · Мандарин</p>
+          <div class="prod-row">
+            <span class="prod-price">от 820 000 сум</span>
+            <div class="prod-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="prod-card" data-cat="woody" id="card-creed">
+        <div class="prod-img-wrap">
+          <div class="prod-fallback" style="display:flex">
+            <div class="fallback-bottle" style="background:linear-gradient(160deg,#0a1a10,#1e5631,#52a052)">
+              <span style="font-size:60px">🌿</span>
+            </div>
+          </div>
+          <div class="prod-tag">NEW</div>
+          <div class="prod-overlay">
+            <button class="btn-cart" id="cart6">В корзину</button>
+          </div>
+        </div>
+        <div class="prod-body">
+          <span class="prod-brand">CREED</span>
+          <h3 class="prod-name">Green Irish Tweed</h3>
+          <p class="prod-notes">Ирис · Сандал · Амбергрис</p>
+          <div class="prod-row">
+            <span class="prod-price">от 1 450 000 сум</span>
+            <div class="prod-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section class="about" id="about">
+  <div class="about__bg">
+    <div class="orb orb-a1"></div>
+    <div class="orb orb-a2"></div>
+  </div>
+  <div class="container">
+    <div class="about__grid">
+      <div class="about__text reveal">
+        <p class="sec-label">Наша история</p>
+        <h2 class="sec-title">Искусство<br/>аромата</h2>
+        <p class="about__desc">LUMIÈRE — это не просто парфюмерный магазин. Это мир, где каждый флакон хранит историю. Мы работаем напрямую с официальными дистрибьюторами ведущих парфюмерных домов Европы и гарантируем подлинность каждого продукта.</p>
+        <p class="about__desc">Наша команда помогает каждому клиенту найти аромат, который станет его вторым «я» — подбор по характеру, событию или просто настроению.</p>
+        <a href="#contact" class="btn-gold">Связаться с нами</a>
+      </div>
+      <div class="about__cards reveal">
+        <div class="about__feat-card">
+          <div class="feat-icon">🌹</div>
+          <h4>100% Оригинал</h4>
+          <p>Сертифицированная продукция напрямую от брендов</p>
+        </div>
+        <div class="about__feat-card">
+          <div class="feat-icon">🚀</div>
+          <h4>Быстрая доставка</h4>
+          <p>По всему Узбекистану за 1–3 рабочих дня</p>
+        </div>
+        <div class="about__feat-card">
+          <div class="feat-icon">💎</div>
+          <h4>Эксклюзив</h4>
+          <p>Редкие коллекции и ароматы, которых нет в других магазинах</p>
+        </div>
+        <div class="about__feat-card">
+          <div class="feat-icon">🎁</div>
+          <h4>Подарочная упаковка</h4>
+          <p>Роскошная упаковка бесплатно для каждого заказа</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MARQUEE ── -->
+<div class="marquee">
+  <div class="marquee__track">
+    <span>CHANEL</span><span class="dot">◆</span>
+    <span>DIOR</span><span class="dot">◆</span>
+    <span>TOM FORD</span><span class="dot">◆</span>
+    <span>CREED</span><span class="dot">◆</span>
+    <span>GUERLAIN</span><span class="dot">◆</span>
+    <span>BYREDO</span><span class="dot">◆</span>
+    <span>JO MALONE</span><span class="dot">◆</span>
+    <span>HERMÈS</span><span class="dot">◆</span>
+    <span>CHANEL</span><span class="dot">◆</span>
+    <span>DIOR</span><span class="dot">◆</span>
+    <span>TOM FORD</span><span class="dot">◆</span>
+    <span>CREED</span><span class="dot">◆</span>
+    <span>GUERLAIN</span><span class="dot">◆</span>
+    <span>BYREDO</span><span class="dot">◆</span>
+    <span>JO MALONE</span><span class="dot">◆</span>
+    <span>HERMÈS</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- ── BRANDS ── -->
+<section class="brands" id="brands">
+  <div class="container">
+    <div class="sec-head">
+      <p class="sec-label">Наши партнёры</p>
+      <h2 class="sec-title">Легенды парфюмерии</h2>
+    </div>
+    <div class="brands__grid">
+      <div class="brand-tile reveal"><span>CHANEL</span><small>Париж · с 1910</small></div>
+      <div class="brand-tile reveal"><span>DIOR</span><small>Париж · с 1946</small></div>
+      <div class="brand-tile reveal"><span>TOM FORD</span><small>Нью-Йорк · с 2005</small></div>
+      <div class="brand-tile reveal"><span>CREED</span><small>Лондон · с 1760</small></div>
+      <div class="brand-tile reveal"><span>BYREDO</span><small>Стокгольм · с 2006</small></div>
+      <div class="brand-tile reveal"><span>JO MALONE</span><small>Лондон · с 1994</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── REVIEWS ── -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="sec-head">
+      <p class="sec-label">Отзывы</p>
+      <h2 class="sec-title">Наши клиенты</h2>
+    </div>
+    <div class="reviews__grid">
+      <div class="rev-card reveal">
+        <div class="rev-stars">★★★★★</div>
+        <p>"Заказала Coco Mademoiselle — оригинал в идеальной упаковке! Буду заказывать ещё!"</p>
+        <div class="rev-author"><div class="rev-av">М</div><div><b>Малика С.</b><span>Ташкент</span></div></div>
+      </div>
+      <div class="rev-card rev-feat reveal">
+        <div class="rev-stars">★★★★★</div>
+        <p>"Лучший магазин парфюмерии в Узбекистане! Огромный выбор, компетентные консультанты и всегда 100% оригинал!"</p>
+        <div class="rev-author"><div class="rev-av">А</div><div><b>Азиз К.</b><span>Самарканд</span></div></div>
+      </div>
+      <div class="rev-card reveal">
+        <div class="rev-stars">★★★★★</div>
+        <p>"Подарила мужу Tom Ford Oud Wood — он в восторге! Упаковка шикарная, аромат настоящий!"</p>
+        <div class="rev-author"><div class="rev-av">Н</div><div><b>Нилуфар Р.</b><span>Бухара</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section class="contact" id="contact">
+  <div class="contact__bg">
+    <div class="orb orb-c1"></div>
+  </div>
+  <div class="container">
+    <div class="contact__grid">
+      <div class="contact__left reveal">
+        <p class="sec-label">Связаться с нами</p>
+        <h2 class="sec-title">Найдите свой<br/>идеальный аромат</h2>
+        <p class="contact__desc">Наши консультанты помогут выбрать аромат или оформить подарок. Свяжитесь удобным способом.</p>
+        <div class="contact__info">
+          <a href="https://t.me/lumiere_uz" class="ci-row" id="tgLink"><span>✉</span> Telegram: @lumiere_uz</a>
+          <div class="ci-row"><span>📞</span> +998 71 200 00 00</div>
+          <div class="ci-row"><span>📍</span> Ташкент, ул. Амира Тимура, 107</div>
+          <div class="ci-row"><span>🕐</span> Пн–Вс: 10:00 – 21:00</div>
+        </div>
+        <div class="contact__social">
+          <a href="#" class="soc-btn" id="igBtn">📸 Instagram</a>
+          <a href="#" class="soc-btn" id="tgBtn">✈ Telegram</a>
+        </div>
+      </div>
+      <div class="contact__form-wrap reveal">
+        <form class="cform" id="cform">
+          <h3 class="cform__title">Оставьте заявку</h3>
+          <div class="fg">
+            <label for="cname">Ваше имя</label>
+            <input type="text" id="cname" placeholder="Нилуфар Каримова" required/>
+          </div>
+          <div class="fg">
+            <label for="cphone">Телефон</label>
+            <input type="tel" id="cphone" placeholder="+998 90 123 45 67" required/>
+          </div>
+          <div class="fg">
+            <label for="cmsg">Сообщение</label>
+            <textarea id="cmsg" rows="4" placeholder="Интересует аромат..."></textarea>
+          </div>
+          <button type="submit" class="btn-gold full" id="cfsubmit">Отправить заявку ✦</button>
+          <div class="cform__ok" id="cformOk">✅ Спасибо! Мы скоро свяжемся с вами.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__logo">LUMIÈRE</div>
+        <p>Haute Parfumerie — искусство аромата для избранных.</p>
+      </div>
+      <div class="footer__col">
+        <h5>Каталог</h5>
+        <a href="#products">Все ароматы</a>
+        <a href="#products">Для неё</a>
+        <a href="#products">Для него</a>
+      </div>
+      <div class="footer__col">
+        <h5>Компания</h5>
+        <a href="#about">О нас</a>
+        <a href="#brands">Бренды</a>
+        <a href="#contact">Контакты</a>
+      </div>
+      <div class="footer__col">
+        <h5>Социальные сети</h5>
+        <a href="#">Instagram</a>
+        <a href="#">Telegram</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <div class="footer__bottom">© 2024 LUMIÈRE. Все права защищены.</div>
+  </div>
+</footer>
+
+<!-- CART TOAST -->
+<div class="toast" id="toast">✦ Добавлено в корзину</div>
+
+<script src="script.js"></script>
+</body>
+</html>
